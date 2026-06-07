@@ -1,0 +1,2 @@
+chat_model_name: qwen3:4b
+embedding_model_name: bge-large:latest

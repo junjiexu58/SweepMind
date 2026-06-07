@@ -1,0 +1,25 @@
+# 敏感配置（含 API Key）
+config/agent.yml
+README_ME.md
+
+# 运行时生成
+chroma_db/
+logs/
+__pycache__/
+*.pyc
+*.pyo
+md5.text
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 环境
+.env
+.venv/

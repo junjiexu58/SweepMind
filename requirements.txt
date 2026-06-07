@@ -1,0 +1,13 @@
+streamlit
+langchain
+langchain-core
+langchain-ollama
+langchain-chroma
+langchain-community
+langchain-text-splitters
+langgraph
+chromadb
+pypdf
+pyyaml
+mcp
+langchain-mcp-adapters

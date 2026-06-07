@@ -1,0 +1,12 @@
+# MCP 模式开关: true 使用 MCP 协议的工具服务, false 使用传统 Function Calling
+use_mcp: true
+
+external_data_path: data/external/records.csv
+
+# 和风天气 — 请替换为你自己的 Key 和 Host
+# 申请地址: https://console.qweather.com/
+qweather_api_host: your_qweather_api_host
+qweather_api_key: your_qweather_api_key
+qweather_timeout: 5
+qweather_lang: zh
+qweather_range: cn
