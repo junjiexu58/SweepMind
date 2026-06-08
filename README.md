@@ -446,12 +446,12 @@ python test_mcp_agent.py
 
 ```
 logs/
-└── agent_20250607.log    # 格式：{name}_{YYYYMMDD}.log
+└── agent_20250606.log    # 格式：{name}_{YYYYMMDD}.log
 ```
 
 日志格式：
 ```
-2025-06-07 12:00:00,123 - agent - INFO - mcp_middleware.py:16 - [tool monitor]执行工具：rag_summarize
+2025-06-06 12:00:00,123 - agent - INFO - mcp_middleware.py:16 - [tool monitor]执行工具：rag_summarize
 ```
 
 - **控制台**：INFO 及以上
