@@ -3,7 +3,7 @@
 验证基于 MCP 工具的 Agent 能否正常完成三种典型场景。
 用法：python test_mcp_agent.py
 """
-from agent.mcp_react_agent import MCPReactAgent
+from agent.mcp.mcp_react_agent import MCPReactAgent
 
 
 def run_scenario(agent: MCPReactAgent, scenario_name: str, query: str):

@@ -7,7 +7,7 @@ from langchain_core.messages import HumanMessage, SystemMessage, ToolMessage
 from langchain_mcp_adapters.client import MultiServerMCPClient
 from langgraph.prebuilt import create_react_agent
 
-from agent.mcp_middleware import MCPMiddlewareManager
+from agent.mcp.mcp_middleware import MCPMiddlewareManager
 from model.factory import chat_model
 from utils.path_tool import get_abs_path
 
@@ -38,7 +38,7 @@ class MCPReactAgent:
     # ------------------------------------------------------------------
 
     async def _init_client_and_agent(self):
-        server_script = get_abs_path("mcp_server/server.py")
+        server_script = get_abs_path("agent/mcp/server.py")
 
         self._client = MultiServerMCPClient(
             {

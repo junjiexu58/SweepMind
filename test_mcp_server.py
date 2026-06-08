@@ -13,7 +13,7 @@ from mcp.client.stdio import stdio_client
 async def test_server():
     server_params = StdioServerParameters(
         command=sys.executable,
-        args=["mcp_server/server.py"],
+        args=["agent/mcp/server.py"],
     )
 
     print("正在启动 MCP Server ...")

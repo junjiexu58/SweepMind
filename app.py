@@ -4,9 +4,9 @@ import streamlit as st
 from utils.config_handler import agent_conf
 
 if agent_conf.get("use_mcp", False):
-    from agent.mcp_react_agent import MCPReactAgent as AgentClass
+    from agent.mcp.mcp_react_agent import MCPReactAgent as AgentClass
 else:
-    from agent.react_agent import ReactAgent as AgentClass
+    from agent.traditional.react_agent import ReactAgent as AgentClass
 
 # 页面配置 (可选，设置页面标题和较宽的布局)
 st.set_page_config(page_title="SweepMind - 扫地机器人智能客服", layout="wide")
